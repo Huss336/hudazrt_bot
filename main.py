@@ -59,5 +59,5 @@ def main():
                 send_telegram_message(f"🔔 منتج جديد متوفر: {title}\n🔗 الرابط: {link}")
         time.sleep(60)  # الفحص كل دقيقة
 
-if __name__ == "__main__":
+if _name_ == "_main_":
     main()
